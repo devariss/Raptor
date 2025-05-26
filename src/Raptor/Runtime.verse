@@ -2,7 +2,6 @@ using { /Fortnite.com/Devices }
 using { /Fortnite.com/Playspaces }
 using { /Verse.org/Concurrency }
 using { /Verse.org/Simulation }
-using { /Verse.org/Simulation/Tags }
 
 # Getter for session runtime instance.
 Runtime<public>()<transacts>: runtime = SessionRuntime[GetSession()] or Err("Runtime not set.")
